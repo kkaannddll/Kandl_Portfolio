@@ -124,9 +124,20 @@ p {
   padding: 24px 24px 40px;
 }
 
-.top-nav h1 {
+.navbar h1 {
   padding-top: 50px;
   text-align: center;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: #000000;
+  height: 100px;
+}
+
+main{
+  padding-top: 80px;
 }
 
 .ulCenter {
@@ -206,7 +217,8 @@ aaeena.html
   width: 60%;
 }
 
-.aaeenaimg, .aaeenatitleimg, .hifiimg, .aaeenaimgwire {
+
+.aaeenaimg, .titleimg, .hifiimg, .aaeenaimgwire {
   max-width: 260px;
   display: block;
   margin: 0 auto;
@@ -282,6 +294,7 @@ about.html
   width: 260px;
   padding-bottom: 30px;
   margin: 0 auto;
+  padding-top: 140px;
 }
 
 /* - - - - - - - - - - -
@@ -292,7 +305,7 @@ MEDIA QUERIES
   /* - - - - - - - - - - -
     Media - Global
     - - - - - - - - - - - */
-  .top-nav h1 {
+  .navbar h1 {
     float: left;
     padding-left: 20px;
   }
@@ -309,6 +322,7 @@ MEDIA QUERIES
     padding-bottom: 20px;
     margin: 0 auto;
     width: 60%;
+    margin-top: 100px;
   }
 
   h3 {
@@ -331,6 +345,7 @@ MEDIA QUERIES
   header {
     overflow: auto;
     min-height: 67px;
+
   }
 
   header h2 {
@@ -415,7 +430,7 @@ MEDIA QUERIES
     padding: 30px;
   }
 
-  .aaeenatitleimg {
+  .titleimg {
     width: 260px;
     display: block;
     margin-left: auto;
